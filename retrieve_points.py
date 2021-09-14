@@ -50,7 +50,7 @@ def write_to_sheet(working_dir,excel_file_name,team_list):
 	return "Inserted new row in " + excel_file_name + " for date: " + date.today().strftime("%d/%m/%Y")
 	
 if __name__ == "__main__":
-	league_id = '43832' # put your real league id here
+	league_id = '357771' # put your real league id here. JS-Update=Malort
 	game_id = "396" # put the game id here (game id's reflect the type of sport and the year)
 	game_code = "nhl" # put the game code here
 	season = "2019" # put the year of the current fantasy season
